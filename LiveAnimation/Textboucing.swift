@@ -13,7 +13,7 @@ struct Textboucing: View {
         VStack {
             HStack {
                 Spacer()
-                Text("Hello, World!")
+                Text("Hello, World!!!")
                     .font(helloWorldFont)
                     .onAppear(perform: {
                         withAnimation(.easeInOut(duration: 1.0).repeatForever()) {

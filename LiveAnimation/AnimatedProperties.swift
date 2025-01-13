@@ -15,7 +15,9 @@ struct AnimatedProperties: View {
                 .frame(width: 100, height: 100) // Uso da variável
                 .offset(y: offset)
                 .animation(.spring, value: offset)
-
+            Image("mosca")
+                .frame(width: 100, height: 100) // Uso da variável
+                .offset(y: offset + 20)
             HStack{
                 Text("🔽")
                     .onTapGesture {
