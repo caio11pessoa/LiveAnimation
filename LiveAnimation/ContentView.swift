@@ -11,7 +11,7 @@ import SwiftUI
 */
 
 struct ContentView: View {
-    @State var tamanho: CGFloat = 100
+    @State var tamanho: CGFloat = 50
     var body: some View {
         VStack {
             Image("gecko")
