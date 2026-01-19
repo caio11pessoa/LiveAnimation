@@ -15,10 +15,10 @@ struct DragAndOther: View {
     var body: some View {
         ZStack{
             VStack{
-                Text("Arraste para Contratar")
+                Text("Employ")
                     .font(Contratar ? .title : .callout)
                 Spacer()
-                Text("Arraste para Dispensar")
+                Text("Dismiss")
                     .font(Dispensar ? .title : .callout)
             }
             Image("gecko")
